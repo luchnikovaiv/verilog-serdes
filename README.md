@@ -65,13 +65,13 @@
 На временной диаграмме показана сборка 20-битного слова из 4-х последовательных 5-битных пакетов. По завершении сборки формируется короткий импульс флага `WE`:
 
 <p align="center">
-  <img src="timing_diagra/deserializer5x20.png" width="46%">
+  <img src="timing_diagram/deserializer5x20.png" width="46%">
 </p>
 
 ### Работа сериалайзера
 Преобразование параллельного слова в последовательность 6-битных пакетов:
 
 <p align="center">
-  <img src="timing_diagra/serializer20x6.png" width="46%">
+  <img src="timing_diagram/serializer20x6.png" width="46%">
 </p>
 
