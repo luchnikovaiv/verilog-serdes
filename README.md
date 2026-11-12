@@ -10,11 +10,11 @@
 
 ```text
 .
-├── project_3.xpr               # Файл проекта Vivado
+├── serial_deserial.xpr         # Файл проекта Vivado
 ├── README.md                   # Документация проекта
 ├── .gitignore                  # Исключения для системных файлов Vivado
 │
-└── project_3.srcs/
+└── serial_deserial.srcs/
     ├── sources_1/new/          # Исходный код модулей (RTL)
     │   ├── deserial5x20.v      # Десериалайзер (5 в 20)
     │   └── serial20x6.v        # Сериалайзер (20 в 6)
@@ -65,13 +65,13 @@
 На временной диаграмме показана сборка 20-битного слова из 4-х последовательных 5-битных пакетов. По завершении сборки формируется короткий импульс флага `WE`:
 
 <p align="center">
-  <img src="serial_deserial/timing_diagra/deserializer5x20.png" width="46%">
+  <img src="timing_diagra/deserializer5x20.png" width="46%">
 </p>
 
 ### Работа сериалайзера
 Преобразование параллельного слова в последовательность 6-битных пакетов:
 
 <p align="center">
-  <img src="serial_deserial/timing_diagra/serializer20x6.png" width="46%">
+  <img src="timing_diagra/serializer20x6.png" width="46%">
 </p>
 
